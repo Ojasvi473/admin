@@ -1,0 +1,10 @@
+.accountlistcontainer {
+  background-color: #435c70;
+  padding: 40px;
+}
+
+@media (max-width: 676px) {
+  .accountlistcontainer {
+    padding: 20px;
+  }
+}

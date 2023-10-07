@@ -1,0 +1,93 @@
+.accountdatacontainer {
+  background-color: #435c70;
+  padding: 40px;
+}
+
+.accountdatacontainer .inputcontainer {
+  display: flex;
+}
+
+.accountdatacontainer .inputcontainer .inputfields {
+  width: 100%;
+  margin-right: 40px;
+}
+
+.accountdatacontainer .inputcontainer:first-child .inputfields {
+  margin-right: 80px;
+}
+
+.container {
+  display: flex;
+}
+
+.accountdatacontainer:first-child {
+  margin-right: 30px;
+  width: 30%;
+}
+
+.accountdatacontainer img {
+  width: 100%;
+  height: auto;
+}
+
+.btn {
+  width: 115%;
+}
+
+button {
+  margin-top: 28px;
+}
+
+.imgcontainer {
+  position: relative;
+}
+
+.imgcontainer .imgoverlay {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.imgcontainer .imgoverlay i {
+  color: #fff;
+  background: rgba(57, 78, 100, 0.7);
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 100%;
+}
+
+.imgcontainer:hover .imgoverlay {
+  display: initial;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .container {
+    display: block;
+  }
+
+  .accountdatacontainer:first-child {
+    margin: 0;
+    width: 81%;
+    margin-bottom: 30px;
+  }
+
+  .accountdatacontainer:last-child {
+    width: 81%;
+  }
+
+  .accountdatacontainer .inputcontainer {
+    display: block;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .modal {
+    width: 80%;
+    height: 20%;
+  }
+}
